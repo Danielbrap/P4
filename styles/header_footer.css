@@ -22,10 +22,7 @@ header img{
 }
 header h1{
     font-size: 200%;
-    color: orchid;
-}
-header h3{
-    color: mediumpurple;
+
 }
 /*nav menu*/
 #header ul {
@@ -64,4 +61,11 @@ header h3{
     content: "";
     clear: both;
     display: block;
+}
+/*footer css*/
+footer {
+    clear: both;
+}
+footer p{
+
 }

@@ -1,11 +1,121 @@
+/*Main Page Css*/
+
+/*Carousel Css*/
+.carousel{
+    width:100% !important;
+}
+.carousel img{
+    height: 35em;
+}
+/*Cards Css*/
+#cards img{
+    width:30em;
+    height:25em;
+    margin: 0 auto;
+
+}
+#cards{
+    padding-bottom: 35px;
+
+}
+/* Contact Page Css*/
+/*imgs for contact*/
+.contact{
+    height: 50px;
+    width:50px;
+}
+/*Position Pages Css*/
+.text{
+    padding-bottom: 35px;
+}
+
+
+/* Universal Css*/
+/*Footer Css*/
 .footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: aliceblue;
-    color: white;
+    color: black;
     text-align: center;
-    padding: 10px;
-    font-size: 0.5rem;
+    padding: 15px;
+    font-size: 85%;
+}
+.footer .row div {
+    width: 32%;
+    padding: 0 20px;
+}
+.footer .row div a {
+    text-decoration: none;
+}
+/*media query*/
+@media only screen and (max-width: 1503px){
+    #cards img{
+        width:25em;
+        height:25em;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width: 1280px){
+    #cards img{
+        width:20em;
+        height:25em;
+        margin: 0 auto;
+
+    }
+}
+@media only screen and (max-width: 1030px){
+    #cards img{
+        width:17em;
+        height:25em;
+        margin: 0 auto;
+
+    }
+}
+@media only screen and (max-width: 998px){
+    #contact{
+        margin-left: 66.6666666667% !important;
+    }
+}
+@media only screen and (max-width: 956px){
+    #cards {
+      display:block !important;
+    }
+    #cards img{
+        width:100%;
+    }
+}
+@media only screen and (max-width: 717px){
+   .left{
+       margin-left: 0;
+   }
+}
+@media only screen and (max-width: 560px) {
+    .footer {
+        font-size: 70%;
+    }
+    .footer .row div {
+        padding: 0 6px;
+    }
+
+}
+
+@media only screen and (max-width: 460px) {
+    .footer {
+        font-size: 65%;
+    }
+    .footer .row div {
+        padding: 0 4px;
+    }
+}
+
+@media only screen and (max-width: 435px) {
+    .footer {
+        font-size: 60%;
+    }
+    .footer .row div {
+        padding: 0 3px;
+    }
 }

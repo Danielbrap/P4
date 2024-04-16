@@ -2,13 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My First Bootstrap Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/socials.css">
+    <title>Contact Page</title>
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
           rel="stylesheet"
           integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
           crossorigin="anonymous">
-    <link href="../styles/main.css" rel="stylesheet">
+    <link href="../css/main.css" rel="stylesheet">
 
 </head>
 <body>
@@ -32,7 +35,7 @@
                         <a style="color: white" >Volleyball Hub</a>
                     </li>
                     <!-- Dropdown -->
-                    <li class="nav-item dropdown offset-10">
+                    <li class="nav-item dropdown offset-10" id="contact">
                         <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
                            data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Positions
@@ -44,26 +47,12 @@
                             <a class="dropdown-item" href="libero_ds.html">Libero/DS</a>
                         </div>
                     </li>
-                    <li id="contact" class="nav-item">
+                    <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
         </nav>
-        <div class="row">
-            <p class="col-1">Col 1</p>
-            <p class="col-1">Col 2</p>
-            <p class="col-1">Col 3</p>
-            <p class="col-1">Col 4</p>
-            <p class="col-1">Col 5</p>
-            <p class="col-1">Col 6</p>
-            <p class="col-1">Col 7</p>
-            <p class="col-1">Col 8</p>
-            <p class="col-1">Col 9</p>
-            <p class="col-1">Col 10</p>
-            <p class="col-1">Col 11</p>
-            <p class="col-1">Col 12</p>
-        </div>
         <div class="container">
           <div class="row">
             <form action="">
@@ -87,11 +76,11 @@
             </form>
         </div>
  </div>
-        <h2 class="justify-content-center d-inline-flex"> Social Media</h2>
+        <h2 class="justify-content-center d-inline-flex" style="padding-top: 100px"> Social Media</h2>
         <div class="container d-inline-flex justify-content align-items-center">
-            <img class="contact offset-1" src="/img/insta.jpg" href="https://www.instagram.com/" alt="instagram logo"> <span> My Instagram</span>
-            <img class="contact offset-3" src="/img/link.png" href="https://www.instagram.com/" alt="instagram logo"><span> My Linkden</span>
-            <span class="offset-3"> My Email: Dor@njit.edu</span>
+            <a href="https://www.instagram.com/" class="fa fa-instagram offset-2 left">  </a><span> My Instagram</span>
+            <a href="https://www.linkedin.com/" class="fa fa-linkedin offset-2 left"></a> <span> My Linkden</span>
+            <span  class="offset-2 left"> My Email: Dor@njit.edu</span>
 
         </div>
         <footer class="footer page-footer font-small ">

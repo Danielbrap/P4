@@ -1,4 +1,5 @@
 /*Main Page Css*/
+
 /*Carousel Css*/
 .carousel{
     width:90% !important;
@@ -8,11 +9,13 @@
 }
 /*Cards Css*/
 #cards img{
-    width:36em;
+    width:30em;
     height:25em;
+    margin: 0 auto;
+
 }
 #cards{
-    padding-bottom: 30px;
+    padding-bottom: 35px;
 }
 /* Contact Page Css*/
 /*imgs for contact*/
@@ -21,10 +24,9 @@
     width:50px;
 }
 /*Position Pages Css*/
-
-
-
-
+.text{
+    padding-bottom: 35px;
+}
 
 
 /* Universal Css*/
@@ -37,7 +39,7 @@
     background-color: aliceblue;
     color: black;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
     font-size: 85%;
 }
 .footer .row div {
@@ -48,9 +50,22 @@
     text-decoration: none;
 }
 /*media query*/
+@media only screen and (max-width: 1485px){
+    #cards img{
+        width:20em;
+        height:25em;
+        margin: 0 auto;
+    }
+}
 @media only screen and (max-width: 998px){
     #contact{
         font-size: 70% !important;
+    }
+    #cards img{
+        width:15em;
+        height:25em;
+        margin: 0 auto;
+
     }
 }
 @media only screen and (max-width: 560px) {

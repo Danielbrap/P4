@@ -2,9 +2,101 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>My First Bootstrap Page</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="../styles/main.css" rel="stylesheet">
+
 </head>
 <body>
+<div class="container-fluid">
+    <div class="row">
+        <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+            <!-- Brand -->
+            <a class="navbar-brand" href="index.html"><img src="../img/logo2.jpg" height="50px" width="50px" alt="Logo" ></a>
+            <!-- Responsive Button for the smaller menu -->
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav col-11">
+                    <!-- Links -->
+                    <li class="nav-item">
+                        <a style="color: white">Volleyball Hub</a>
+                    </li>
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown offset-10">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                           data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Positions
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="outside.html">Outside</a>
+                            <a class="dropdown-item" href="opposite.html">Opposite</a>
+                            <a class="dropdown-item" href="setter.html">Setter</a>
+                            <a class="dropdown-item" href="libero_ds.html">Libero/DS</a>
+                        </div>
+                    </li>
+                    <li id="contact" class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="row">
+            <p class="col-1">Col 1</p>
+            <p class="col-1">Col 2</p>
+            <p class="col-1">Col 3</p>
+            <p class="col-1">Col 4</p>
+            <p class="col-1">Col 5</p>
+            <p class="col-1">Col 6</p>
+            <p class="col-1">Col 7</p>
+            <p class="col-1">Col 8</p>
+            <p class="col-1">Col 9</p>
+            <p class="col-1">Col 10</p>
+            <p class="col-1">Col 11</p>
+            <p class="col-1">Col 12</p>
+        </div>
+    </div>
+    <div class=" text align-content-around col-4" style="float: left">
+        <h1> Setter </h1>
+        <h2>Overview of the Position</h2>
+        <p class="left_text">
+            The position called Setter is the most important position and holds the most responsibility. This is due to the fact that the setter enables all the hitters since they set the ball to a hitter. The setter's job is to call the plays for their team and are the brains of the operation since it’s their decision to where the ball goes to hit. The setter usually sets 2 to the outside 1 to the middle and 0.5 to the opposite as a ratio and a good rule of thumb. The setter is normally always the player to touch the ball second since it’s the easiest ball to set and to let the hitter hit the ball last. If the setter plays badly the whole team plays since they enable the team to work offensively and if he makes wrong decisions it always leads to points for the other team.
+        <h2> Rotation Positions</h2>
+        <p>
+            Aliquam malesuada bibendum arcu vitae. Mattis enim ut tellus elementum sagittis vitae. Sodales ut etiam sit amet nisl purus in mollis nunc. Urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Arcu odio ut sem nulla pharetra. Commodo nulla facilisi nullam vehicula ipsum. Convallis tellus id interdum velit. Facilisis mauris sit amet massa. Purus faucibus ornare suspendisse sed. Volutpat sed cras ornare arcu dui vivamus. Vivamus arcu felis bibendum ut tristique et. Feugiat sed lectus vestibulum mattis ullamcorper velit. In aliquam sem fringilla ut morbi tincidunt augue interdum velit. Magna sit amet purus gravida quis blandit turpis cursus in. Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Et sollicitudin ac orci phasellus egestas. Ac tortor dignissim convallis aenean et tortor at risus. Egestas congue quisque egestas diam in. Odio tempor orci dapibus ultrices in. At varius vel pharetra vel turpis nunc eget lorem.
+        </p>
+        <h2> Special Rules </h2>
+        <p>
+            Quam viverra orci sagittis eu volutpat odio. Viverra orci sagittis eu volutpat odio facilisis mauris. Egestas pretium aenean pharetra magna ac placerat vestibulum. Elementum pulvinar etiam non quam lacus suspendisse faucibus. Adipiscing elit ut aliquam purus sit. Nisi scelerisque eu ultrices vitae auctor eu augue ut lectus. Feugiat vivamus at augue eget arcu dictum. Tincidunt augue interdum velit euismod in pellentesque massa. Ultricies leo integer malesuada nunc. Aliquet eget sit amet tellus. Augue lacus viverra vitae congue eu consequat ac felis. Placerat orci nulla pellentesque dignissim enim sit amet venenatis urna.        </p>
+    </div>
+    <div class="offset-7" >
+        <img src="/img/setter.jpg" alt="Male Setting a Ball" width="50%">
+        <img src="/img/setter2.jpg" alt="Female Setting a Ball" width="50%" style="padding-bottom: 75px">
+    </div>
+    <footer class="footer page-footer font-small">
+        <div class="container justify-content">
+            <div class="row">
+                <div class="text-muted">&copy; Daniel Reis, 2024 </div>
+                <div><a href="#">Terms Of Use</a></div>
+                <div><a href="#"> Privacy Statement</a></div>
+            </div>
+        </div>
+    </footer>
+</div>
+<!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
 
 </body>
 </html>

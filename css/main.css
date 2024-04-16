@@ -24,6 +24,10 @@
     margin-left: auto !important;
     margin-right: 16px;
 }
+.navbar-toggler {
+    margin-left: auto !important;
+    margin-right: 16px;
+}
 .contact{
     height: 50px;
     width:50px;

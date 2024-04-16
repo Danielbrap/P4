@@ -20,6 +20,10 @@
 }
 /* Contact Page Css*/
 /*imgs for contact*/
+.all-nav-links {
+    margin-left: auto !important;
+    margin-right: 16px;
+}
 .contact{
     height: 50px;
     width:50px;

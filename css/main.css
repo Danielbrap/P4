@@ -19,7 +19,6 @@
 }
 #cards{
     padding-bottom: 35px;
-
 }
 /* Contact Page Css*/
 /*imgs for contact*/
@@ -67,6 +66,7 @@ div .images img {
 }
 div .images .img2 {
     clear: right;
+    padding-bottom: 35px;
 }
 .players-content {
     margin: 2% 2% 10% 2%;
